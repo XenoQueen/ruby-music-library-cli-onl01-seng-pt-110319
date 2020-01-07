@@ -40,6 +40,6 @@ class Artist
   
   def genres
     songs.collect do |song|
-      
+      binding.pry
   end
 end

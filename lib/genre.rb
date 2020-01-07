@@ -1,9 +1,9 @@
 #require './concerns/findable.rb'
-class Song
+class Genre
   
   #extend Concerns::Findable
   attr_accessor :name
-  attr_reader :genre, :artist
+  attr_reader :songs
   @@all = []
   
   def initialize(name, artist = nil, genre = nil)

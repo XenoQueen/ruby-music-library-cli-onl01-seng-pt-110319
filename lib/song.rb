@@ -1,4 +1,4 @@
-#require './concerns/findable.rb'
+#require './lib/concerns/findable.rb'
 class Song
   
   #extend Concerns::Findable

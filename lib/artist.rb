@@ -42,5 +42,6 @@ class Artist
     binding.pry
     songs.collect do |song|
       
+    end
   end
 end

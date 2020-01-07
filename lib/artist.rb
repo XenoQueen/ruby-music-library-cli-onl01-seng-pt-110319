@@ -29,5 +29,5 @@ class Artist
   end
   
   def add_song(song)
-    # song.artist
+    # song.artist = self unless song.artist
 end

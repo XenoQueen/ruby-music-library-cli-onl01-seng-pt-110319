@@ -36,7 +36,7 @@ class Artist
       song.artist = self
       songs << song
     end
-    song
+    songs
   end
   
   def genres

@@ -32,15 +32,15 @@ class Artist
   def add_song(song)
     # song.artist = self unless song.artist
     # songs << song unless songs.include?(song)
-      
-      song.artist = self unless song.artist
-      songs << song
+    if song.artist = nil
+      song.artist = self
+      @@songs << song
     end
-    songs
   end
   
   def genres
     songs.collect do |song|
-
+      
+    end
   end
 end

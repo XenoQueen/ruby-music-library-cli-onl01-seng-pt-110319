@@ -9,6 +9,7 @@ class Song
   def initialize(name, artist = nil, genre = nil)
     @name = name
     #@artist = artist
+    self
     @genre = genre
   end
 

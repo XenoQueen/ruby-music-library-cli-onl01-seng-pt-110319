@@ -33,7 +33,7 @@ class Artist
     # song.artist = self unless song.artist
     # songs << song unless songs.include?(song)
       
-      song.artist = self
+      song.artist = self unless 
       songs << song
     end
     songs

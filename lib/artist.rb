@@ -1,5 +1,5 @@
 #require './concerns/findable.rb'
-class Song
+class Artist
   
   #extend Concerns::Findable
   attr_accessor :name

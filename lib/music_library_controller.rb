@@ -22,7 +22,7 @@ class MusicLibraryController
   end
   
   def list_songs
-    Song.all.sort.each_with
+    Song.all.sort.each_with_index
   end
   
 end

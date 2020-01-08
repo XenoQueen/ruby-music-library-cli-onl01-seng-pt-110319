@@ -51,6 +51,7 @@ class Song
   end
   
   def self.new_by_filename(file)
-    artist, song = file.split("-") # more than one variable assigns all to each 
+    artist, song = file.split("-") # more than one variable assigns all to each element
+    
   end
 end

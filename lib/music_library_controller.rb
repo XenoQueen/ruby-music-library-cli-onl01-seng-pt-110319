@@ -23,13 +23,13 @@ class MusicLibraryController
       when "list songs"
         list_songs
       when "list artists"
-        list_artists
+        list_songs_by_artist
       when "list genres"
         list_genres
       when "list artist"
         list_artist
       when "list genre"
-        list_genre
+        list_songs_by_genre
       end
     end
   end

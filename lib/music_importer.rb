@@ -11,6 +11,6 @@ class MusicImporter
   end
   
   def import
-  files.each{|file|}
+  files.each{|file| }
   end
 end

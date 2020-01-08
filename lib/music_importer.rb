@@ -7,9 +7,9 @@ class MusicImporter
   end
   
   def files
-    
+    @files || Dir.glob("#{path}/")
   end
-  @files || Dir.glob("#{path}/")
+  
   def import
   @files.each{|f| Song.create_from_filename(f)}
   end

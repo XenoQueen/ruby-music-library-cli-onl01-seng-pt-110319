@@ -26,6 +26,6 @@ class MusicLibraryController
   end
   
   def list_artists
-    Artist.all.sort{|a, b| a.name
+    Artist.all.sort{|a, b| b.name
   end
 end

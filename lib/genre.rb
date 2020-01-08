@@ -28,4 +28,8 @@ class Genre
     genre.save
     genre
   end
+  
+  def artists(name)
+    
+  end
 end

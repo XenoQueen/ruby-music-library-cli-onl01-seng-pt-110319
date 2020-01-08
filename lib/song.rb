@@ -53,6 +53,6 @@ class Song
   def self.new_by_filename(file)
     artist, song, genre = file.split("-") # more than one variable assigns all to each element
     song_artist = Artist.find_or_create_by_name(artist)
-    song_genre = genre.gsub(".mp3", "").Genre.find_or_create_by_name
+    song_genre = genre.gsub(".mp3", "")
   end
 end

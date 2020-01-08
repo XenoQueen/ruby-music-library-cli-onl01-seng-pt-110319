@@ -28,7 +28,7 @@ class Genre
     genre
   end
   
-  def artists(name)
+  def artists
     
   end
 end

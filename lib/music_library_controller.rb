@@ -1,7 +1,7 @@
 require 'pry'
 class MusicLibraryController
   
-  def initialize(path=)
+  def initialize(path="./")
     
   end
 end

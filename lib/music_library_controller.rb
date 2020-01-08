@@ -12,4 +12,5 @@ class MusicLibraryController
     puts "To list all of the genres in your library, enter 'list genres'."
   end
   
+  def 
 end

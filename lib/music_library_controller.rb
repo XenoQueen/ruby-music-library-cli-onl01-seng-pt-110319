@@ -22,7 +22,7 @@ class MusicLibraryController
   end
   
   def list_songs
-    Song.all.sort{|a,b| a.name} <=> b.name}.each_with_index{|song, index| puts "#{index} + 1}. #{song.artist.name} -  #{song.name} - #{song.genre.name}"}
+    Song.all.sort{|a,b| a.name <=> b.name}.each_with_index{|song, index| puts "#{index} + 1}. #{song.artist.name} -  #{song.name} - #{song.genre.name}"}
   end
   
   def list_artists
@@ -52,7 +52,7 @@ class MusicLibraryController
   def play_song
     puts "Which song number would you like to play?"
     input = gets.strip
-    if song = Song.all.sort{|a,b| a.name} <=> b.name}.include?(input)
+    if song = Song.all.sort{|a,b| a.name <=> b.name}.include?(input)
       list_songs
       
       puts "Playing #{song.name} by #{song.artist}."

@@ -1,4 +1,3 @@
-
 class Genre
   
   extend Concerns::Findable
@@ -30,6 +29,6 @@ class Genre
   end
   
   def artists(name)
-    
+    4
   end
 end

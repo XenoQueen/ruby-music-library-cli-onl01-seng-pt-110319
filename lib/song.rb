@@ -50,7 +50,7 @@ class Song
     self.find_by_name(name) || create(name)
   end
   
-  def self.new_by_filename(file)
+  def self.create_by_filename(file)
     file = file.gsub(".mp3", "")
     artist, song, genre = file.split("-") # more than one variable assigns all to each element
     song_artist = Artist.find_or_create_by_name(artist)

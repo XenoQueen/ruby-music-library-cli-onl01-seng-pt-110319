@@ -9,7 +9,7 @@ class MusicImporter
   def files
     
   end
-  
+  @files || 
   def import
   @files.each{|f| Song.create_from_filename(f)}
   end

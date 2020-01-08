@@ -6,7 +6,7 @@ class MusicLibraryController
   end
   
   def call
-    puts "Welcome to your music Library!"
+    puts "Welcome to your music library!"
   end
   
 end

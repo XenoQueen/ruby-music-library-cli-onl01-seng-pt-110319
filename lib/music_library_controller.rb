@@ -30,6 +30,6 @@ class MusicLibraryController
   end
   
   def list_genres
-    Genre.all.sort(|a,b| a.name <=> b.name)
+    Genre.all.sort{|a,b| a.name <=> b.name}.each_with_index
   end
 end

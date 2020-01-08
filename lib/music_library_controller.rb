@@ -53,6 +53,6 @@ class MusicLibraryController
     puts "Which song number would you like to play?"
     input = gets.strip
     if list_songs.include?(input)
-      puts "Playing "
+      puts "Playing #{song.name"
   end
 end

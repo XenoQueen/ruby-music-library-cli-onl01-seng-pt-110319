@@ -2,7 +2,7 @@ class MusicImporter
   
   attr_accessor :file
   
-  def initialize(path)
+  def initialize(name)
     @path = path
     @files = Dir.glob(path + "/*.mp3")
     @files.each {|f| f.gsub!(path + "/", "")}
